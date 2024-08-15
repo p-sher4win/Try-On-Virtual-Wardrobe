@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test The Try On Shirt button</title>
+</head>
+<body>
+
+<button onclick="startDetection()">Test Button</button>
+
+<script>
+function startDetection() {
+    fetch('/rundetection')
+        .then(response => {
+            if (response.ok) {
+                console.log('Detection started');
+            } else {
+                console.error('Error starting detection');
+            }
+        });
+}
+</script>
+
+</body>
+</html>

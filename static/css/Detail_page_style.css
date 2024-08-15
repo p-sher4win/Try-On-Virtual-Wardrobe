@@ -1,0 +1,116 @@
+
+
+.img_container{
+    background-color: rgb(255, 255, 255);
+    margin: 0 0px 0 0px;
+}
+
+.bigger_img {
+    width: 340px; 
+    height: 400px; 
+    padding: 20px;
+    margin: 50px 100px 0px 180px;
+}
+
+.smaller_images{
+    margin: 0 0 0 75px;
+}
+
+/* scrolling of images */
+div.smaller_images {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+}
+
+div.smaller_images button {
+  padding: px;
+}
+
+div.smaller_images :hover {
+  background-color: #ef9090;
+}
+
+.shirt{
+    width: 120px;
+    padding: 20px;
+}
+
+.product_container{
+    display: flex;
+}
+
+.info_container{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+
+div.info_container {
+  
+  height: 728px;
+  width: 800px;
+  overflow-y: scroll;
+}
+
+.img_container,info_container{
+    padding: 10px; /* Optional padding */
+    width: 50%;
+}
+
+.information{
+    /* background-color: aqua; */
+    margin: 0 20px 0 30px;
+}
+
+.delivery {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    color: #000000;
+    font-size: 12px;
+    /* font-family: Lato; */
+    line-height: 150%;
+    letter-spacing: 1px;
+  }
+
+  .quantity input {
+    width: 51px;
+    height: px;
+    
+    padding: 6px;
+  }
+
+  .quantity button{
+    background: #17696a;
+    border-radius: 4px;
+    padding: 10px 37px;
+    border: none;
+    color: white;
+    font-weight: 600;
+  }
+
+  .size-option {
+    width: 200px;
+    height: 30px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+
+  .information h5 {
+    font-size: 24px;
+    font-family: Lato;
+    font-weight: 500;
+    line-height: 130%;
+    color: #ff4242;
+    margin: 6px 0;
+  }
+
+  .sizes p{ 
+    font-size: x-large;
+    margin: 0 0 0 0;
+  }
+
+  .information del {
+    color: #a9a9a9;
+  }

@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details page-top</title>
+    <link rel="stylesheet" href="Detail_page_style.css">
+</head>
+
+<body>
+    
+    <section class="product_container">
+
+        <div class="img_container" >
+            <img id="111" src="top_img/top_1.png" alt="image of a shirt" class="bigger_img">
+        
+
+            <div class="smaller_images">
+               <button type="button" onclick="chng_pic1()"><img src="top_img/top_1.png" alt="image of green shirt" class="shirt"></button>
+               <button type="button" onclick="chng_pic2()"><img src="top_img/top_2.png" alt="image of green shirt" class="shirt"></button>
+               <button type="button" onclick="chng_pic3()"><img src="top_img/top_3.png" alt="image of green shirt" class="shirt"></button>
+               <button type="button" onclick="chng_pic4()"><img src="top_img/top_4.png" alt="image of green shirt" class="shirt"></button>
+            </div>
+        </div>
+
+        <div class="info_container">
+            <div class="information">
+                <h1><b>Women's crop Top</b></h1>
+
+                <h5>Price: Rs 800 &nbsp; <del>Rs1200</del></h5>
+                
+                <div class="description" id="des_para">
+                    <p><B>A Pink Crop Top</B> can be a trendy and fashionable addition to your wardrobe. Here are some key points to note about pink crop tops:</p>   
+                    <ol>
+                    <li>Color Psychology: Pink is often associated with femininity, sweetness, and charm. Wearing a pink crop top can convey a sense of fun and vibrancy, perfect for casual wear or outings with friends.</li>
+                    <li>Versatility: Pink crop tops come in various styles, from fitted to loose and flowy. The cropped length adds a playful and youthful touch to your outfit. They can be paired with high-waisted jeans, shorts, skirts, or layered over dresses, making them versatile for different occasions.</li>
+                    <li>Styling Options: Pink crop tops can be dressed up or down depending on the occasion. A casual cotton crop top is ideal for everyday wear, while a sequined or embellished pink crop top can be perfect for a night out or a special event. Accessories like necklaces can enhance the look.</li>
+                    </ol>
+                </div>
+
+                <div class="sizes">
+                    <p >Size:</p>
+                    <select name="Size" id="size" class="size-option">
+                        <option value="xxl">XXL</option>
+                        <option value="xl">XL</option>
+                        <option value="medium">Medium</option>
+                        <option value="small">Small</option>
+                    </select>
+                </div>
+    
+                <div class="quantity">
+                    <input type="number" value="1" min="1">
+                    <button>Buy</button>
+                    <button>Try Now
+                </div>
+
+                <div>
+                    <p>Delivery:</p>
+                    <p>Free standard shipping on orders over Rs500 before tax, plus free returns.</p>
+                    <div class="delivery">
+                        <p>TYPE</p> <p>Duration</p> <p>Cost</p>
+                    </div>
+                    <hr>
+                    <div class="delivery">
+                        <p>Standard delivery</p> 
+                        <p>1-4 business days</p> 
+                        <p>Rs 60</p>
+                    </div>
+                    <hr>
+                    <div class="delivery">
+                        <p>Express delivery</p> 
+                        <p>1 business day</p> 
+                        <p>Rs 120</p>
+                    </div>
+                    <hr>
+                    <div class="delivery">
+                        <p>Pick up in store</p> 
+                        <p>1-3 business days</p> 
+                        <p>Free</p>
+                    </div>
+                </div>
+    
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="top_script.js"></script>
+</body>
+
+</html>
